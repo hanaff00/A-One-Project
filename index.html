@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>A-one Store</title>
+    <title>A-ONE Store</title>
     <link rel="stylesheet" href="stylesheet.css" />
     <link rel="stylesheet" href="responsive.css" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <script src="https://kit.fontawesome.com/7060f2f338.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <header>
@@ -17,7 +18,7 @@
           <img class="logo" src="logo-a01.png" />
         </div>
         <!-- Tambahkan ikon menu disini -->
-        <span class="fa fa-bars menu"></span>
+        <span class="fa fa-bars menu-icon"></span>
         <div class="header-right">
           <a href="#Produk">Produk</a>
           <a href="#Ulasan">Ulasan</a>
@@ -33,34 +34,11 @@
         <h1>Selamat Berbelanja!</h1>
       </div>
     </div>
-    <form>
-        <div class="wrapper">
-          <h4>Ulasan</h4>
-          <p class='ulasan'>Ulasanmu sangat berarti bagi kami!</p>
-        </div>
-        <ul>
-          <li class="ulasan_data">
-            <p class="ket">Nama</p>
-            <input>
-            <p class="ket">Email</p>
-            <input>
-            <p class="ket">Nomor Telepon</p>
-            <input>
-          </li>
-          <li class="ulasan_kirim">
-            <div>
-              <p class="ket">Ulasan</p>
-              <textarea></textarea>
-            </div>
-            <span class="btn message">Kirim</span>
-          </li>
-        </ul>
-      </form>
       <div class="produk-wrapper">
         <div class="container">
             <h2>PRODUK KAMI</h2>
-            <div class="produk-list" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                <div class="produks">
+            <div class="produk-list">
+                <div class="produks" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <div class="produk">
                         <div class="foto-produk">
                             <img src="desain 1.jpg">
@@ -70,7 +48,7 @@
                         <i class="fas fa-shopping-cart"></i>
                     </div>
                 </div>
-                <div class="produks">
+                <div class="produks" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <div class="produk">
                         <div class="foto-produk">
                             <img src="desain 2.jpg">
@@ -80,7 +58,7 @@
                         <i class="fas fa-shopping-cart"></i>
                     </div>
                 </div>
-                <div class="produks">
+                <div class="produks" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <div class="produk">
                         <div class="foto-produk">
                             <img src="desain 3.jpg">
@@ -90,7 +68,7 @@
                         <i class="fas fa-shopping-cart"></i>
                     </div>
                 </div>
-                <div class="produks">
+                <div class="produks" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <div class="produk">
                         <div class="foto-produk">
                             <img src="desain 4.jpg">
@@ -100,7 +78,7 @@
                         <i class="fas fa-shopping-cart"></i>
                     </div>
                 </div>
-                <div class="produks">
+                <div class="produks" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <div class="produk">
                         <div class="foto-produk">
                             <img src="desain 5.jpg">
@@ -110,7 +88,7 @@
                         <i class="fas fa-shopping-cart"></i>
                     </div>
                 </div>
-                <div class="produks">
+                <div class="produks" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <div class="produk">
                         <div class="foto-produk">
                             <img src="desain 6.jpg">
@@ -120,7 +98,7 @@
                         <i class="fas fa-shopping-cart"></i>
                     </div>
                 </div>
-                <div class="produks">
+                <div class="produks" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <div class="produk">
                         <div class="foto-produk">
                             <img src="desain 7.jpg">
@@ -130,7 +108,7 @@
                         <i class="fas fa-shopping-cart"></i>
                     </div>
                 </div>
-                <div class="produks">
+                <div class="produks" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <div class="produk">
                         <div class="foto-produk">
                             <img src="desain 8.jpg">
@@ -144,6 +122,29 @@
             </div>
         </div>
     </div>
+    <form>
+      <div class="wrapper">
+        <h4>Ulasan</h4>
+        <p class='ulasan'>Ulasanmu sangat berarti bagi kami!</p>
+      </div>
+      <ul>
+        <li class="ulasan_data">
+          <p class="ket">Nama</p>
+          <input>
+          <p class="ket">Email</p>
+          <input>
+          <p class="ket">Nomor Telepon</p>
+          <input>
+        </li>
+        <li class="ulasan_kirim">
+          <div>
+            <p class="ket">Ulasan</p>
+            <textarea></textarea>
+          </div>
+          <span class="btn message">Kirim</span>
+        </li>
+      </ul>
+    </form>
       <footer>
         <div class="footer-logo">
           <img src="logo-a01.png" alt="">
@@ -167,6 +168,5 @@
       <script>
         AOS.init();
       </script>
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </body>
   </html>
