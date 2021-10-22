@@ -51,10 +51,10 @@ header {
 }
 
 .logo {
-  width: 69px;
+  width: 63px;
   height: 100%;
-  padding: 2px;
-  align: center;
+  padding: 5px;
+  align-items: center;
 }
 
 .header-left {
@@ -91,108 +91,110 @@ header {
   display: none;
 }
 
-body {
-    margin: 0 auto;
-    font-family: 'Gaegu';
-    color:#eee;
-    text-align: center;
-    margin: 0px;
+body{
+  margin: 0 auto;
+  font-family: 'Gaegu';
+  color:#eee;
+  text-align: center;
+  margin: 0px;
+}
+.wrapper{
+  width:100%;
+  text-align: center;
+  background-color: #318FB5;
+}
+.wrapper h4{
+  font-size: 38px;
+  margin:0px;
+}
+.wrapper p {
+  font-size: 16px;
+  margin-top:0px;
+  text-align: center;
   }
-  .wrapper {
-    width:100%;
-    text-align: center;
-    background-color: #318FB5;
-  }
-  .wrapper h4 {
-    font-size: 38px;
-    margin:0px;
-  }
-  .wrapper p {
-    font-size: 16px;
-    margin-top:0px;
-    text-align: center;
-    }
-  form {
-    padding-top: 30px;
-    padding-bottom: 60px;
-    background-color: #318FB5;
-    font-family: 'Gaegu';
-    color:#eee;
-  }
-  input, textarea {
-    width: 440px;
-    padding: 12px;
-    margin: 0 auto;
-    font-size: 16px;
-    border: 1px solid #dee7ec;
-    border-radius: 16px;
-    font-family: 'Gaegu';
-    color:#707070;
-  }
-  textarea {
-    height: 105px;
-  }
-  .btn {
-    color: black;
-    display: inline-block;
-    opacity: 0.85;
-    border-radius: 10px;
-    text-align: center;
-    margin: 0 auto;
-    font-family: 'Gaegu';
-  }
-      
-  .btn:hover {
-    opacity: 1;
-  }
-  .ulasan_data{
-    margin-left:50px;
-    margin-right: 10px;
-  }
-  .ulasan_kirim{
-    margin-left: 10px;
-    margin-right: 80px;
-  }
-  .message {
-    margin-top: 32px;
-    padding: 10px 32px;
-    background-color: #F7D6BF;
-    cursor: pointer;
-    display: inline-block;
-    box-shadow: 0 5px #555555;
-    color:#005086;
-  }
-  .twitter {
-    margin-left:35px;
-  }
-  .message:active {
-    box-shadow: none;
-    position: relative;
-    top: 5px;
-  }
-  ul {
-    list-style: none;
-    padding-right: 35px;
-    text-align: center;
-    font-size: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    color:#eee;
-  }
-  li{
-    flex: auto;
-  }
-  footer .alamat{
-    font-size: 30px;
-    padding-left:40px;
-  }
-  .medsos{
-    padding:0px;
-    margin: 0px;
-    }
-  .ket{
-      margin-bottom:0px;
-    }
+form{
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #318FB5;
+  font-family: 'Gaegu';
+  color:#eee;
+}
+input, textarea{
+  width: 440px;
+  padding: 12px;
+  margin: 0 auto;
+  font-size: 16px;
+  border: 1px solid #dee7ec;
+  border-radius: 16px;
+  font-family: 'Gaegu';
+  color:#707070;
+}
+textarea{
+  height: 105px;
+}
+.btn {
+  color: black;
+  display: inline-block;
+  opacity: 0.85;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Gaegu';
+}
+    
+.btn:hover {
+  opacity: 1;
+}
+.ulasan_data{
+  margin-left:50px;
+  margin-right: 10px;
+}
+.ulasan_kirim{
+  margin-left: 10px;
+  margin-right: 80px;
+}
+.message {
+  margin-top: 32px;
+  padding: 10px 32px;
+  background-color: #F7D6BF;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: 0 5px #555555;
+  color:#005086;
+}
+.twitter{
+  margin-left:35px;
+
+}
+
+.message:active{
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+ul{
+  list-style: none;
+  padding-right: 35px;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  color:#eee;
+}
+li{
+  flex: auto;
+}
+footer .alamat{
+  font-size: 30px;
+  padding-left:40px;
+}
+.medsos{
+  padding:0px;
+  margin: 0px;
+}
+.ket{
+  margin-bottom:0px;
+}
 
     * {
       box-sizing: border-box;
@@ -305,73 +307,57 @@ body {
       background-color:#9eb4b2;
     }
     
-    .clear{
-      clear:left;
-    }
-
     .data-aos {
       animation-name: anchor placement;
       animation-duration: 2s;
     }
 
-  footer{
-    background-color:#005086 ;
-    font-size: 20px;
-    display: flex;
-    text-align: center;
-    line-height: 30px;
-  }
-
-  footer div{
-    flex: auto;
-  }
-
-  .footer-logo {
-    float: left;
-    padding: 20px;
-    width: 20px;
-  }
-
-  .footer-medsos h5{
-    padding-top:15px;
-    margin:0px;
-  }
-
-  a img{
-    height:35px;
-    width:35px;
-  }
-
-  ul{
-      list-style: none;
-  }
-
-  .btn{
-      padding: 12px 24px;
-      color:#005086;
-      display: inline-block;
-      opacity: 0.8;
-      border-radius: 4px;
-  }
-
-  .btn-wrapper {
-      margin: 10px;
+    footer{
+      background-color:#005086 ;
+      font-size: 20px;
+      display: flex;
+      text-align: center;
+      line-height: 30px;
     }
-
-  a{
-      margin: 0px;
+    footer div{
+      flex: auto;
+      }
+    .footer-logo {
+      float: left;
+      padding: 20px;
     }
-
-  .btn-wrapper p {
-      margin: 10px 0;
+    .footer-medsos h5{
+      padding-top:15px;
+      margin:0px;
     }
-
-  .footer-logo img{
-    width: 120px;
-    height: 120px;
-    margin: 0px;
+    a img{
+      height:35px;
+      width:35px;
     }
-
-  .footer-medsos h5{
-    font-size: 20px;
-  }
+    ul{
+        list-style: none;
+      }
+      .btn{
+        padding: 12px 24px;
+        color:#005086;
+        display: inline-block;
+        opacity: 0.8;
+        border-radius: 4px;
+      }
+    .btn-wrapper {
+        margin: 10px;
+      }
+    a{
+        margin: 0px;
+      }
+    .btn-wrapper p {
+        margin: 10px 0;
+      }
+    .footer-logo img{
+      width: 80px;
+      height: 80px;
+      margin:0px;
+      }  
+    .footer-medsos h5{
+      font-size: 20px;
+    }
