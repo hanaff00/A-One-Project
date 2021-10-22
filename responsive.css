@@ -22,45 +22,45 @@
   }
   
   /* Untuk Smartphone */
-  @media all and (max-width: 670px) {
-    .top-wrapper {
-      text-align: left;
-    }
+@media all and (max-width: 670px) {
+  .top-wrapper {
+    text-align: left;
+  }
   
     /* Tambahkan CSS untuk header-right */
-    .menu-icon::before {
-      display: block;
-    }
+  .menu-icon::before {
+    display: block;
+  }
   
-    /* Tambahkan CSS untuk menu-icon */
-    .menu-icon::before {
-      display: block;
-    }
+  .header-right{
+    display: none;
+  }
   
-    .top-wrapper h1 {
-      font-size: 24px;
-      line-height: 36px;
-    }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
 
-    .produks{
-      width:100%;
-    }
+  .produks{
+    width:100%;
+  }
     
   .container h2{
-      font-size:30px;
-    }
-  
-    @media all and (max-width: 420px) {
-      .header-right {
-        display: none;
-      }
-
-      .menu-icon::before {
-        display: block;
-      }
-    }
+    font-size:30px;
   }
-  @media(max-width: 1180px) {
+}
+
+@media all and (max-width: 420px) {
+  .header-right {
+      display: none;
+  }
+
+    .menu-icon::before {
+      display: block;
+    }
+    
+  }
+@media (max-width: 1180px) {
 
     ul{
       font-size: 13px;
@@ -108,7 +108,8 @@
       font-size: 25x;
     }
   }
-@media(max-width: 996px){
+
+@media (max-width: 996px){
     footer .alamat{
       font-size: 25px;
       padding-top: 1px;
@@ -118,7 +119,8 @@
       width:25px;
     }
   }
-@media(max-width: 835px){
+
+@media (max-width: 835px){
   footer .alamat{
     font-size: 25px;
     padding-left:34px;
@@ -135,7 +137,8 @@
     margin-left:18px;
   }
 }
-@media(max-width: 835px){
+
+@media (max-width: 835px){
   .twitter{
     margin-left:0px;
   }
@@ -145,7 +148,7 @@
   } 
 }
 
-@media(max-width: 670px) {
+@media (max-width: 670px) {
     ul{
       flex-wrap: wrap;
       flex-direction: column;
